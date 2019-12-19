@@ -11,7 +11,7 @@ gem 'rake'
 group :integration do
   gem 'test-kitchen', '~> 1.4'
   gem 'kitchen-vagrant'
-  gem 'kitchen-ec2'
+  gem 'kitchen-ec2', '>= 0.9.3'
   gem 'unf' # Stop Fog (used by kitchen-ec2) complaining
   gem 'serverspec'
 end
